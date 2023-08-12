@@ -4,7 +4,7 @@
 cal = '''
  _____________________
 |  _________________  |
-| | JO           0. | |
+| |               0.| |
 | |_________________| |
 |  ___ ___ ___   ___  |
 | | 7 | 8 | 9 | | + | |
@@ -20,7 +20,7 @@ cal = '''
 
 raw = cal[60:67]
 user = input()
-new_cal= cal.replace(raw,str(eval(user)))
+new_cal = cal.replace(raw, str(eval(user)))
 print(new_cal)
 
 
